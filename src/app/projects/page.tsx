@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Projects",
   description: "Dan Thomson's projects: Sensay AI, books on Digital Immortality, angel investments in Web3, AI, and Hospitality startups.",
   openGraph: {
-    title: "Projects — Dan Thomson",
+    title: "Projects - Dan Thomson",
     description: "Sensay AI, books on Digital Immortality, and angel investments.",
   },
 };
@@ -61,7 +61,7 @@ export default function ProjectsPage() {
         <h3 className="text-lg font-semibold text-neutral-900 mb-2">Sensay</h3>
         <p className="text-neutral-600 text-sm leading-relaxed mb-4">
           As Founder & CEO of Sensay, I&apos;m leading the charge on digital immortality. 
-          We&apos;re building AI technology that creates digital replicas of people—preserving 
+          We&apos;re building AI technology that creates digital replicas of people - preserving 
           their knowledge, personality, and wisdom for future generations.
         </p>
         <p className="text-neutral-600 text-sm leading-relaxed mb-4">
@@ -91,7 +91,7 @@ export default function ProjectsPage() {
       {/* Ventures Current */}
       <section id="ventures-current" className="mb-12 scroll-mt-24">
         <h2 className="text-xs font-medium text-neutral-400 uppercase tracking-wider mb-4">
-          Ventures — Current
+          Ventures - Current
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-x-4 gap-y-2 text-sm">
           {currentVentures.map((venture) => (
@@ -121,7 +121,7 @@ export default function ProjectsPage() {
       {/* Ventures Past */}
       <section id="ventures-past" className="mb-12 scroll-mt-24">
         <h2 className="text-xs font-medium text-neutral-400 uppercase tracking-wider mb-4">
-          Ventures — Past
+          Ventures - Past
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-x-4 gap-y-2 text-sm text-neutral-500">
           {pastVentures.map((venture) => (
@@ -137,7 +137,7 @@ export default function ProjectsPage() {
         </h2>
         <p className="text-neutral-600 text-sm leading-relaxed mb-6">
           I&apos;ve written two books exploring what it means to live forever through 
-          technology—the philosophical implications, practical applications, and 
+          technology - the philosophical implications, practical applications, and 
           the future of human legacy.
         </p>
         <div className="space-y-4">
@@ -174,7 +174,7 @@ export default function ProjectsPage() {
           <div>
             <h3 className="font-medium text-neutral-900 text-sm">Endless - Life After Upload</h3>
             <p className="text-neutral-500 text-sm">
-              Currently writing — exploring the future of consciousness and digital existence.
+              Currently writing - exploring the future of consciousness and digital existence.
             </p>
           </div>
         </div>
@@ -219,7 +219,7 @@ export default function ProjectsPage() {
         </h2>
         <p className="text-neutral-600 text-sm leading-relaxed">
           Beyond investing, I take on select advisory and board positions where 
-          I can contribute strategic value—go-to-market strategy, fundraising guidance, 
+          I can contribute strategic value - go-to-market strategy, fundraising guidance, 
           and scaling operations for AI and Web3 startups.
         </p>
       </section>

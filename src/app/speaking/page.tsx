@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Speaking",
   description: "Book Dan Thomson for speaking engagements on AI, Digital Immortality, Web3, entrepreneurship, and adventure.",
   openGraph: {
-    title: "Speaking — Dan Thomson",
+    title: "Speaking - Dan Thomson",
     description: "Book Dan Thomson for keynotes and panels on AI, Digital Immortality, and the future of technology.",
   },
 };

@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Contact",
   description: "Get in touch with Dan Thomson. Book a call, send a message, or connect on social media.",
   openGraph: {
-    title: "Contact — Dan Thomson",
+    title: "Contact - Dan Thomson",
     description: "Book a call or send a message to Dan Thomson.",
   },
 };

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "About",
   description: "Dan Thomson - Founder & CEO of Sensay, author, angel investor, and explorer. Philosophy from King's College London, MBA from Cambridge.",
   openGraph: {
-    title: "About — Dan Thomson",
+    title: "About - Dan Thomson",
     description: "Founder & CEO of Sensay, author, angel investor, and explorer of 110 countries.",
   },
 };
@@ -54,7 +54,7 @@ export default function AboutPage() {
           >
             Sensay
           </a>
-          , where we&apos;re pioneering digital immortality through AI—preserving 
+          , where we&apos;re pioneering digital immortality through AI - preserving 
           human knowledge, personality, and wisdom for future generations.
         </p>
       </section>
@@ -81,7 +81,7 @@ export default function AboutPage() {
             <span className="font-medium text-neutral-900">On Technology</span>
             <p className="text-neutral-600 mt-1">
               Technology should amplify what makes us human, not replace it. 
-              Digital immortality isn&apos;t about escaping death—it&apos;s about 
+              Digital immortality isn&apos;t about escaping death - it&apos;s about 
               extending the impact of a human life.
             </p>
           </div>
@@ -95,7 +95,7 @@ export default function AboutPage() {
           <div>
             <span className="font-medium text-neutral-900">On Freedom</span>
             <p className="text-neutral-600 mt-1">
-              Freedom isn&apos;t just political or financial—it&apos;s intellectual 
+              Freedom isn&apos;t just political or financial - it&apos;s intellectual 
               and creative. I build companies that give people more control over 
               their lives and legacies.
             </p>
@@ -111,15 +111,15 @@ export default function AboutPage() {
         <ul className="space-y-2 text-sm">
           <li className="flex gap-4">
             <span className="text-neutral-400 w-16 flex-shrink-0">Now</span>
-            <span className="text-neutral-600">Founder & CEO, Sensay — Building AI for digital immortality</span>
+            <span className="text-neutral-600">Founder & CEO, Sensay - Building AI for digital immortality</span>
           </li>
           <li className="flex gap-4">
             <span className="text-neutral-400 w-16 flex-shrink-0">2020+</span>
-            <span className="text-neutral-600">Author — Two books on Digital Immortality (third in progress)</span>
+            <span className="text-neutral-600">Author - Two books on Digital Immortality (third in progress)</span>
           </li>
           <li className="flex gap-4">
             <span className="text-neutral-400 w-16 flex-shrink-0">2015+</span>
-            <span className="text-neutral-600">Angel Investor — Web3, AI, and Hospitality startups</span>
+            <span className="text-neutral-600">Angel Investor - Web3, AI, and Hospitality startups</span>
           </li>
           <li className="flex gap-4">
             <span className="text-neutral-400 w-16 flex-shrink-0"></span>
@@ -135,7 +135,7 @@ export default function AboutPage() {
           </li>
           <li className="flex gap-4">
             <span className="text-neutral-400 w-16 flex-shrink-0"></span>
-            <span className="text-neutral-600">MBA, Cambridge — Technology entrepreneurship</span>
+            <span className="text-neutral-600">MBA, Cambridge - Technology entrepreneurship</span>
           </li>
           <li className="flex gap-4">
             <span className="text-neutral-400 w-16 flex-shrink-0"></span>
@@ -151,7 +151,7 @@ export default function AboutPage() {
         </h2>
         <ul className="space-y-2 text-sm text-neutral-600">
           <li>
-            Aspiring Philanthropist —{" "}
+            Aspiring Philanthropist - {" "}
             <a
               href="https://unchainedelephants.com/"
               target="_blank"
@@ -171,10 +171,10 @@ export default function AboutPage() {
           Adventures
         </h2>
         <ul className="space-y-2 text-sm text-neutral-600">
-          <li>🇦🇶 Antarctica — Explored the last frontier</li>
-          <li>🏔️ Everest Base Camp — Trekked to 5,364m</li>
-          <li>🇻🇳 Son Doong Cave — World&apos;s largest cave</li>
-          <li>🌍 110 Countries — And counting</li>
+          <li>🇦🇶 Antarctica - Explored the last frontier</li>
+          <li>🏔️ Everest Base Camp - Trekked to 5,364m</li>
+          <li>🇻🇳 Son Doong Cave - World&apos;s largest cave</li>
+          <li>🌍 110 Countries - And counting</li>
         </ul>
       </section>
 

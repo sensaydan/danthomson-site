@@ -13,9 +13,9 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://danthomson.ai'),
   title: {
     default: "Dan Thomson",
-    template: "%s — Dan Thomson"
+    template: "%s - Dan Thomson"
   },
-  description: "Founder & CEO of Sensay, author, angel investor, and explorer of 100+ countries. Building the future of AI and human legacy.",
+  description: "Founder & CEO of Sensay, author, angel investor, and explorer of 110 countries. Building the future of AI and human legacy.",
   keywords: ["Dan Thomson", "Sensay", "Digital Immortality", "AI", "Web3", "Angel Investor", "Author", "Explorer"],
   authors: [{ name: "Dan Thomson" }],
   creator: "Dan Thomson",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     url: "https://danthomson.ai",
     siteName: "Dan Thomson",
     title: "Dan Thomson",
-    description: "Founder & CEO of Sensay, author, angel investor, and explorer of 100+ countries.",
+    description: "Founder & CEO of Sensay, author, angel investor, and explorer of 110 countries.",
     images: [
       {
         url: "/og-image.png",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Dan Thomson",
-    description: "Founder & CEO of Sensay, author, angel investor, and explorer of 100+ countries.",
+    description: "Founder & CEO of Sensay, author, angel investor, and explorer of 110 countries.",
     creator: "@sensaydan",
     images: ["/og-image.png"],
   },

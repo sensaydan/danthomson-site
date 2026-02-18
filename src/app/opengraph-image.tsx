@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
 
-export const alt = "Dan Thomson - CEO, Author & Explorer";
+export const alt = "Dan Thomson - Founder & CEO of Sensay";
 export const size = {
   width: 1200,
   height: 630,
@@ -20,9 +20,8 @@ export default async function Image() {
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
-          backgroundColor: "#09090b",
-          backgroundImage:
-            "radial-gradient(circle at 25% 25%, rgba(251, 191, 36, 0.15) 0%, transparent 50%), radial-gradient(circle at 75% 75%, rgba(168, 85, 247, 0.1) 0%, transparent 50%)",
+          backgroundColor: "#ffffff",
+          padding: 60,
         }}
       >
         <div
@@ -35,19 +34,9 @@ export default async function Image() {
         >
           <div
             style={{
-              fontSize: 32,
-              color: "#fbbf24",
-              marginBottom: 16,
-              letterSpacing: "0.2em",
-            }}
-          >
-            CEO · AUTHOR · EXPLORER
-          </div>
-          <div
-            style={{
-              fontSize: 80,
-              fontWeight: 700,
-              color: "white",
+              fontSize: 72,
+              fontWeight: 600,
+              color: "#171717",
               marginBottom: 24,
             }}
           >
@@ -56,44 +45,35 @@ export default async function Image() {
           <div
             style={{
               fontSize: 28,
-              color: "#a1a1aa",
+              color: "#525252",
               textAlign: "center",
               maxWidth: 800,
+              lineHeight: 1.4,
             }}
           >
-            Founder & CEO of Sensay · Author on Digital Immortality · Explorer of 100+ Countries
+            Founder & CEO of Sensay · Author · Angel Investor · Explorer of 110 Countries
           </div>
           <div
             style={{
               display: "flex",
-              gap: 24,
+              gap: 16,
               marginTop: 40,
+              fontSize: 20,
+              color: "#737373",
             }}
           >
-            {["🌍 Freedom", "⛰️ Adventure", "💡 Innovation", "♾️ Digital Immortality"].map(
-              (value) => (
-                <div
-                  key={value}
-                  style={{
-                    padding: "12px 24px",
-                    backgroundColor: "rgba(39, 39, 42, 0.8)",
-                    borderRadius: 9999,
-                    border: "1px solid rgba(63, 63, 70, 0.5)",
-                    color: "#a1a1aa",
-                    fontSize: 18,
-                  }}
-                >
-                  {value}
-                </div>
-              )
-            )}
+            <span>AI</span>
+            <span>·</span>
+            <span>Digital Immortality</span>
+            <span>·</span>
+            <span>Web3</span>
           </div>
         </div>
         <div
           style={{
             position: "absolute",
             bottom: 40,
-            color: "#71717a",
+            color: "#a3a3a3",
             fontSize: 20,
           }}
         >
