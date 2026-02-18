@@ -67,18 +67,34 @@ export default function ProjectsPage() {
         </p>
         <div className="space-y-4">
           <div>
-            <h3 className="font-medium text-neutral-900 text-sm">Digital Immortality</h3>
-            <p className="text-neutral-500 text-sm">
-              How AI technology is changing our relationship with mortality and 
-              what it means to preserve human consciousness.
+            <h3 className="font-medium text-neutral-900 text-sm">Immortality in a Digital Age</h3>
+            <p className="text-neutral-500 text-sm mb-2">
+              How we can live forever as digital copies of ourselves, and the 
+              benefits and issues that may come with it.
             </p>
+            <a
+              href="https://www.amazon.com/Immortality-Digital-Age-ourselves-benefits/dp/1700712934"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-neutral-900 text-sm link"
+            >
+              Buy on Amazon →
+            </a>
           </div>
           <div>
-            <h3 className="font-medium text-neutral-900 text-sm">The Immortality Thesis</h3>
-            <p className="text-neutral-500 text-sm">
-              A philosophical deep-dive into the ethics and implications of digital 
-              consciousness and AI-powered legacy preservation.
+            <h3 className="font-medium text-neutral-900 text-sm">The Digital Afterlife: Exploring Mind Uploading</h3>
+            <p className="text-neutral-500 text-sm mb-2">
+              A deep exploration into the future of human consciousness and the 
+              frontier where mind melds with technology.
             </p>
+            <a
+              href="https://www.amazon.com/Digital-Afterlife-Exploring-Mind-Uploading/dp/B0BZ6SVZNP"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-neutral-900 text-sm link"
+            >
+              Buy on Amazon →
+            </a>
           </div>
         </div>
       </section>
@@ -108,7 +124,7 @@ export default function ProjectsPage() {
           <div>
             <span className="font-medium text-neutral-900">Hospitality & Travel</span>
             <p className="text-neutral-500">
-              As someone who&apos;s visited 100+ countries, I understand what makes 
+              As someone who&apos;s visited 110 countries, I understand what makes 
               great travel experiences.
             </p>
           </div>

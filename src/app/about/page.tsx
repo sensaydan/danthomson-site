@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Dan Thomson - Founder & CEO of Sensay, author, angel investor, and explorer. Philosophy from King's College London, MBA from Cambridge.",
   openGraph: {
     title: "About — Dan Thomson",
-    description: "Founder & CEO of Sensay, author, angel investor, and explorer of 100+ countries.",
+    description: "Founder & CEO of Sensay, author, angel investor, and explorer of 110 countries.",
   },
 };
 
@@ -126,7 +126,7 @@ export default function AboutPage() {
           <li>🇦🇶 Antarctica — Explored the last frontier</li>
           <li>🏔️ Everest Base Camp — Trekked to 5,364m</li>
           <li>🇻🇳 Son Doong Cave — World&apos;s largest cave</li>
-          <li>🌍 100+ Countries — And counting</li>
+          <li>🌍 110 Countries — And counting</li>
         </ul>
       </section>
 
