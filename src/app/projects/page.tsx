@@ -25,9 +25,9 @@ const currentVentures = [
   { name: "hirenet.ai", url: "https://hirenet.ai" },
   { name: "Eternas", url: "https://eternas.ai" },
   { name: "KOLZ", url: "https://kolz.chat" },
-  { name: "tutorbud", url: null },
-  { name: "coachbeyond", url: null },
-  { name: "expertchat", url: null },
+  { name: "tutorbud", url: "https://tutorbud.co.uk" },
+  { name: "coachbeyond", url: "https://coachbeyond.co.uk" },
+  { name: "expertchat", url: "https://expertchat.co.uk" },
 ];
 
 const pastVentures = [
