@@ -34,7 +34,10 @@ export default function AboutPage() {
             humanity&apos;s highest aspirations.
           </p>
           <p className="text-neutral-500 text-sm">
-            Based in Mexico City 🇲🇽 · British by birth 🇬🇧
+            Based in Mexico City 🇲🇽 · British by birth 🇬🇧 · INTJ
+          </p>
+          <p className="text-neutral-500 text-sm">
+            Speaks English, Spanish, and Portuguese
           </p>
         </div>
       </div>
@@ -54,6 +57,18 @@ export default function AboutPage() {
           , where we&apos;re pioneering digital immortality through AI—preserving 
           human knowledge, personality, and wisdom for future generations.
         </p>
+      </section>
+
+      {/* Current Research */}
+      <section className="mb-12">
+        <h2 className="text-xs font-medium text-neutral-400 uppercase tracking-wider mb-4">
+          Current Research
+        </h2>
+        <ul className="space-y-2 text-sm text-neutral-600">
+          <li>Writing third book: &quot;Endless - Life After Upload&quot;</li>
+          <li>Studying long-term effects of Digital Replicas as business tools, AI assistants, and death/grief tech</li>
+          <li>Studying positive benefits on Alzheimer&apos;s Disease and Dementia patients</li>
+        </ul>
       </section>
 
       {/* Philosophy */}
@@ -100,11 +115,23 @@ export default function AboutPage() {
           </li>
           <li className="flex gap-4">
             <span className="text-neutral-400 w-16 flex-shrink-0">2020+</span>
-            <span className="text-neutral-600">Author — Two books on Digital Immortality</span>
+            <span className="text-neutral-600">Author — Two books on Digital Immortality (third in progress)</span>
           </li>
           <li className="flex gap-4">
             <span className="text-neutral-400 w-16 flex-shrink-0">2015+</span>
             <span className="text-neutral-600">Angel Investor — Web3, AI, and Hospitality startups</span>
+          </li>
+          <li className="flex gap-4">
+            <span className="text-neutral-400 w-16 flex-shrink-0"></span>
+            <span className="text-neutral-600">Former CMO at InsurAce & MetaRisk (blockchain-enhanced risk financing)</span>
+          </li>
+          <li className="flex gap-4">
+            <span className="text-neutral-400 w-16 flex-shrink-0"></span>
+            <span className="text-neutral-600">Partner at a Gibraltar crypto fund</span>
+          </li>
+          <li className="flex gap-4">
+            <span className="text-neutral-400 w-16 flex-shrink-0"></span>
+            <span className="text-neutral-600">Founded and scaled an international chain of juice bars and restaurants</span>
           </li>
           <li className="flex gap-4">
             <span className="text-neutral-400 w-16 flex-shrink-0"></span>
@@ -114,6 +141,27 @@ export default function AboutPage() {
             <span className="text-neutral-400 w-16 flex-shrink-0"></span>
             <span className="text-neutral-600">Philosophy, King&apos;s College London</span>
           </li>
+        </ul>
+      </section>
+
+      {/* Personal */}
+      <section className="mb-12">
+        <h2 className="text-xs font-medium text-neutral-400 uppercase tracking-wider mb-4">
+          Personal
+        </h2>
+        <ul className="space-y-2 text-sm text-neutral-600">
+          <li>
+            Aspiring Philanthropist —{" "}
+            <a
+              href="https://unchainedelephants.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-neutral-900 link"
+            >
+              Unchained Elephants
+            </a>
+          </li>
+          <li>Cocktail, Wine, Spirit & Cigar enthusiast, mixologist</li>
         </ul>
       </section>
 
@@ -127,6 +175,38 @@ export default function AboutPage() {
           <li>🏔️ Everest Base Camp — Trekked to 5,364m</li>
           <li>🇻🇳 Son Doong Cave — World&apos;s largest cave</li>
           <li>🌍 110 Countries — And counting</li>
+        </ul>
+      </section>
+
+      {/* Writing */}
+      <section className="mb-12">
+        <h2 className="text-xs font-medium text-neutral-400 uppercase tracking-wider mb-4">
+          Writing
+        </h2>
+        <p className="text-sm text-neutral-600 mb-4">
+          I share thoughts and insights on:
+        </p>
+        <ul className="space-y-2 text-sm">
+          <li>
+            <a
+              href="https://asksensay.medium.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-neutral-900 link"
+            >
+              Medium →
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://blog.sensay.io"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-neutral-900 link"
+            >
+              Sensay Blog →
+            </a>
+          </li>
         </ul>
       </section>
 

@@ -70,6 +70,16 @@ export default function ContactPage() {
               <ul className="space-y-1 text-neutral-600">
                 <li>
                   <a
+                    href="https://t.me/sensaydan"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-neutral-900"
+                  >
+                    Telegram @sensaydan
+                  </a>
+                </li>
+                <li>
+                  <a
                     href="https://twitter.com/sensaydan"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -80,7 +90,17 @@ export default function ContactPage() {
                 </li>
                 <li>
                   <a
-                    href="https://linkedin.com/in/sensaydan"
+                    href="https://instagram.com/danttravels"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-neutral-900"
+                  >
+                    Instagram @danttravels
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://linkedin.com/in/dan-thomson-sensay"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-neutral-900"
@@ -90,12 +110,22 @@ export default function ContactPage() {
                 </li>
                 <li>
                   <a
-                    href="https://instagram.com/sensaydan"
+                    href="https://github.com/sensaydan"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-neutral-900"
                   >
-                    Instagram @sensaydan
+                    GitHub
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://asksensay.medium.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-neutral-900"
+                  >
+                    Medium
                   </a>
                 </li>
               </ul>
@@ -145,7 +175,7 @@ export default function ContactPage() {
             <h3 className="font-medium text-neutral-900">What&apos;s the best way to reach you?</h3>
             <p className="text-neutral-500 mt-1">
               For quick conversations, Calendly. For detailed inquiries with attachments, email. 
-              For casual interaction, Twitter DMs are open.
+              For casual interaction, Twitter or Telegram DMs are open.
             </p>
           </div>
         </div>

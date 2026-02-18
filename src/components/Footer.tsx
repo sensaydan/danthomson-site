@@ -12,7 +12,7 @@ export default function Footer() {
             <Link href="/contact" className="hover:text-neutral-900">Contact</Link>
           </div>
           
-          <div className="flex gap-4 text-sm text-neutral-400">
+          <div className="flex flex-wrap gap-x-4 gap-y-2 text-sm text-neutral-400">
             <a
               href="https://twitter.com/sensaydan"
               target="_blank"
@@ -22,12 +22,36 @@ export default function Footer() {
               Twitter
             </a>
             <a
-              href="https://linkedin.com/in/sensaydan"
+              href="https://linkedin.com/in/dan-thomson-sensay"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-neutral-900"
             >
               LinkedIn
+            </a>
+            <a
+              href="https://t.me/sensaydan"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-neutral-900"
+            >
+              Telegram
+            </a>
+            <a
+              href="https://instagram.com/danttravels"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-neutral-900"
+            >
+              Instagram
+            </a>
+            <a
+              href="https://github.com/sensaydan"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-neutral-900"
+            >
+              GitHub
             </a>
           </div>
         </div>

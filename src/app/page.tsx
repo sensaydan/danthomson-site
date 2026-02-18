@@ -70,6 +70,21 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Values */}
+      <section className="mb-12">
+        <h2 className="text-xs font-medium text-neutral-400 uppercase tracking-wider mb-4">
+          Values
+        </h2>
+        <ul className="space-y-2 text-sm text-neutral-600">
+          <li>Freedom & Adventure</li>
+          <li>Push Boundaries</li>
+          <li>Innovate</li>
+          <li>Stay Drama Free</li>
+          <li>Experiences &gt; Materialistic things</li>
+          <li>Preserve my knowledge and stories. Build Digital Immortality.</li>
+        </ul>
+      </section>
+
       {/* Now */}
       <section className="mb-12">
         <h2 className="text-xs font-medium text-neutral-400 uppercase tracking-wider mb-4">
@@ -82,7 +97,11 @@ export default function Home() {
           </li>
           <li className="flex gap-4">
             <span className="text-neutral-400 w-24 flex-shrink-0">Writing</span>
-            <span className="text-neutral-600">Two books on Digital Immortality</span>
+            <span className="text-neutral-600">Third book: &quot;Endless - Life After Upload&quot;</span>
+          </li>
+          <li className="flex gap-4">
+            <span className="text-neutral-400 w-24 flex-shrink-0">Research</span>
+            <span className="text-neutral-600">Digital Replicas for Alzheimer&apos;s & Dementia patients</span>
           </li>
           <li className="flex gap-4">
             <span className="text-neutral-400 w-24 flex-shrink-0">Investing</span>
@@ -138,13 +157,20 @@ export default function Home() {
       </section>
 
       {/* Connect */}
-      <section className="pt-8 border-t border-neutral-100">
+      <section className="mb-12 pt-8 border-t border-neutral-100">
         <p className="text-sm text-neutral-500">
           Building something interesting? Want to discuss AI, Web3, or investing?{" "}
           <Link href="/contact" className="text-neutral-900 link">
             Let&apos;s talk
           </Link>
           .
+        </p>
+      </section>
+
+      {/* Philosophical Closing */}
+      <section className="pt-8 border-t border-neutral-100">
+        <p className="text-sm text-neutral-400 leading-relaxed italic">
+          &quot;Who knows where I am in the world or where I&apos;ll be next week. This little bit of time we have on this floating rock in infinite space is for us to find ourselves and leave it a little bit better than when we started. Our improbable evolution of our own consciousness is a wonderful occurrence, no matter what may have caused it. We should make the most of it even if we may be a stepping stone on the evolutionary path, nothing more than monkeys with shiny toys. Perhaps Artificial Intelligence is the inevitable consequence of all evolved civilisations. Either way, it looks like we could get answers real soon. What a time to be alive.&quot;
         </p>
       </section>
     </div>

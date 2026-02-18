@@ -10,6 +10,39 @@ export const metadata: Metadata = {
   },
 };
 
+const currentVentures = [
+  { name: "Sensay", url: "https://sensay.io" },
+  { name: "$SNSY", url: "https://snsy.ai" },
+  { name: "Draftr", url: "https://draftr.co" },
+  { name: "Trima", url: null, note: "Coming Soon" },
+  { name: "Forget Me Not", url: null, note: "Coming Soon" },
+  { name: "Dgaf.ai", url: "https://dgaf.ai" },
+  { name: "Clonez", url: "https://clonez.io" },
+  { name: "Key Person Replicas", url: "https://kpreplicas.com" },
+  { name: "CelebChat", url: "https://celebchat.app" },
+  { name: "Twim", url: "https://twim.live" },
+  { name: "NEXLY", url: "https://nexly.xyz" },
+  { name: "hirenet.ai", url: "https://hirenet.ai" },
+  { name: "Eternas", url: "https://eternas.ai" },
+  { name: "KOLZ", url: "https://kolz.chat" },
+  { name: "tutorbud", url: null },
+  { name: "coachbeyond", url: null },
+  { name: "expertchat", url: null },
+];
+
+const pastVentures = [
+  "Rock Crypto Fund",
+  "RESTEK",
+  "Supernatural",
+  "Pacifico Burritos",
+  "Atlantic Sushi",
+  "Paradise Tiki Bar",
+  "Squish Juice",
+  "Juice Club",
+  "BYOC",
+  "Zenna",
+];
+
 export default function ProjectsPage() {
   return (
     <div className="max-w-2xl mx-auto px-6 py-16 md:py-24">
@@ -55,6 +88,48 @@ export default function ProjectsPage() {
         </div>
       </section>
 
+      {/* Ventures Current */}
+      <section id="ventures-current" className="mb-12 scroll-mt-24">
+        <h2 className="text-xs font-medium text-neutral-400 uppercase tracking-wider mb-4">
+          Ventures — Current
+        </h2>
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-x-4 gap-y-2 text-sm">
+          {currentVentures.map((venture) => (
+            <div key={venture.name}>
+              {venture.url ? (
+                <a
+                  href={venture.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-neutral-600 hover:text-neutral-900"
+                >
+                  {venture.name}
+                </a>
+              ) : (
+                <span className="text-neutral-600">
+                  {venture.name}
+                  {venture.note && (
+                    <span className="text-neutral-400 text-xs ml-1">({venture.note})</span>
+                  )}
+                </span>
+              )}
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Ventures Past */}
+      <section id="ventures-past" className="mb-12 scroll-mt-24">
+        <h2 className="text-xs font-medium text-neutral-400 uppercase tracking-wider mb-4">
+          Ventures — Past
+        </h2>
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-x-4 gap-y-2 text-sm text-neutral-500">
+          {pastVentures.map((venture) => (
+            <div key={venture}>{venture}</div>
+          ))}
+        </div>
+      </section>
+
       {/* Books */}
       <section id="books" className="mb-12 scroll-mt-24">
         <h2 className="text-xs font-medium text-neutral-400 uppercase tracking-wider mb-4">
@@ -95,6 +170,12 @@ export default function ProjectsPage() {
             >
               Buy on Amazon →
             </a>
+          </div>
+          <div>
+            <h3 className="font-medium text-neutral-900 text-sm">Endless - Life After Upload</h3>
+            <p className="text-neutral-500 text-sm">
+              Currently writing — exploring the future of consciousness and digital existence.
+            </p>
           </div>
         </div>
       </section>
