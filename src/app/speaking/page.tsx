@@ -5,207 +5,118 @@ export const metadata: Metadata = {
   title: "Speaking",
   description: "Book Dan Thomson for speaking engagements on AI, Digital Immortality, Web3, entrepreneurship, and adventure.",
   openGraph: {
-    title: "Speaking | Dan Thomson",
+    title: "Speaking — Dan Thomson",
     description: "Book Dan Thomson for keynotes and panels on AI, Digital Immortality, and the future of technology.",
   },
 };
 
 const topics = [
   {
-    icon: "🧠",
     title: "Digital Immortality & AI",
-    description: "The future of preserving human consciousness and wisdom through AI technology. What it means for society, relationships, and what we leave behind.",
-    tags: ["AI", "Future", "Philosophy"],
+    description: "The future of preserving human consciousness and wisdom through AI technology.",
   },
   {
-    icon: "🚀",
     title: "Building in Web3",
-    description: "Lessons from the trenches of building decentralized technology companies. What works, what doesn't, and where we're heading.",
-    tags: ["Web3", "Entrepreneurship", "Crypto"],
+    description: "Lessons from building decentralized technology companies. What works, what doesn't.",
   },
   {
-    icon: "🌍",
     title: "The Explorer's Mindset",
-    description: "How traveling to 100+ countries and exploring extreme environments shaped my approach to business and life. Comfort is the enemy of growth.",
-    tags: ["Adventure", "Mindset", "Leadership"],
+    description: "How traveling to 100+ countries shaped my approach to business and life.",
   },
   {
-    icon: "💡",
     title: "Philosophy in Business",
-    description: "Applying philosophical thinking to entrepreneurship. How asking the right questions leads to building the right things.",
-    tags: ["Philosophy", "Strategy", "Thinking"],
+    description: "Applying philosophical thinking to entrepreneurship and decision-making.",
   },
   {
-    icon: "💰",
-    title: "Angel Investing & Startup Ecosystems",
-    description: "What I look for in founders and startups. Building ecosystems that foster innovation in emerging markets.",
-    tags: ["Investing", "Startups", "Mentorship"],
+    title: "Angel Investing",
+    description: "What I look for in founders and startups. Building ecosystems that foster innovation.",
   },
   {
-    icon: "♾️",
     title: "The Future of Human Legacy",
-    description: "Beyond social media and digital footprints—how technology is changing what it means to be remembered and to leave a lasting impact.",
-    tags: ["Future", "Technology", "Legacy"],
+    description: "How technology is changing what it means to be remembered.",
   },
-];
-
-const pastEvents = [
-  "Web Summit",
-  "Token2049",
-  "AI conferences globally",
-  "University lectures",
-  "Corporate keynotes",
-  "Podcast appearances",
 ];
 
 export default function SpeakingPage() {
   return (
-    <div className="pt-24 pb-16">
-      {/* Hero */}
-      <section className="max-w-6xl mx-auto px-6 py-16">
-        <h1 className="text-4xl md:text-5xl font-bold font-serif mb-6">
-          Speaking
-        </h1>
-        <p className="text-xl text-zinc-400 max-w-2xl mb-8">
-          I speak at conferences, corporate events, and universities about AI, 
-          digital immortality, entrepreneurship, and the explorer&apos;s mindset.
-        </p>
+    <div className="max-w-2xl mx-auto px-6 py-16 md:py-24">
+      <h1 className="text-xl md:text-2xl font-semibold text-neutral-900 mb-4">
+        Speaking
+      </h1>
+      <p className="text-neutral-500 mb-4">
+        I speak at conferences, corporate events, and universities about AI, 
+        digital immortality, entrepreneurship, and the explorer&apos;s mindset.
+      </p>
+      <p className="mb-12">
         <a
           href="https://calendly.com/sensaydan"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex px-6 py-3 bg-amber-500 hover:bg-amber-400 text-zinc-900 font-semibold rounded-xl transition-all"
+          className="text-neutral-900 text-sm link"
         >
-          Book for an Event
+          Book for an event →
         </a>
-      </section>
+      </p>
 
       {/* Topics */}
-      <section className="py-16 bg-zinc-900/30">
-        <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-3xl font-bold font-serif mb-12">Topics I Speak On</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {topics.map((topic) => (
-              <div
-                key={topic.title}
-                className="p-6 rounded-2xl bg-zinc-900/50 border border-zinc-800 hover:border-amber-500/30 transition-all"
-              >
-                <div className="text-4xl mb-4">{topic.icon}</div>
-                <h3 className="text-xl font-bold mb-3">{topic.title}</h3>
-                <p className="text-zinc-400 text-sm mb-4">{topic.description}</p>
-                <div className="flex flex-wrap gap-2">
-                  {topic.tags.map((tag) => (
-                    <span
-                      key={tag}
-                      className="px-2 py-1 bg-zinc-800 rounded text-zinc-400 text-xs"
-                    >
-                      {tag}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
+      <section className="mb-12">
+        <h2 className="text-xs font-medium text-neutral-400 uppercase tracking-wider mb-4">
+          Topics
+        </h2>
+        <div className="space-y-4">
+          {topics.map((topic) => (
+            <div key={topic.title}>
+              <h3 className="font-medium text-neutral-900 text-sm">{topic.title}</h3>
+              <p className="text-neutral-500 text-sm">{topic.description}</p>
+            </div>
+          ))}
         </div>
       </section>
 
-      {/* Format */}
-      <section className="py-16">
-        <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-3xl font-bold font-serif mb-8">Event Formats</h2>
-          <div className="grid md:grid-cols-3 gap-6">
-            <div className="p-6 rounded-2xl bg-zinc-900/50 border border-zinc-800">
-              <div className="text-3xl mb-4">🎤</div>
-              <h3 className="text-lg font-bold mb-2">Keynote Talks</h3>
-              <p className="text-zinc-400 text-sm">
-                30-60 minute presentations tailored to your audience and event theme.
-              </p>
-            </div>
-            <div className="p-6 rounded-2xl bg-zinc-900/50 border border-zinc-800">
-              <div className="text-3xl mb-4">💬</div>
-              <h3 className="text-lg font-bold mb-2">Panel Discussions</h3>
-              <p className="text-zinc-400 text-sm">
-                Interactive conversations with other leaders on AI, Web3, and the future.
-              </p>
-            </div>
-            <div className="p-6 rounded-2xl bg-zinc-900/50 border border-zinc-800">
-              <div className="text-3xl mb-4">🎙️</div>
-              <h3 className="text-lg font-bold mb-2">Podcasts & Interviews</h3>
-              <p className="text-zinc-400 text-sm">
-                Deep-dive conversations for podcasts and media appearances.
-              </p>
-            </div>
-            <div className="p-6 rounded-2xl bg-zinc-900/50 border border-zinc-800">
-              <div className="text-3xl mb-4">🏢</div>
-              <h3 className="text-lg font-bold mb-2">Corporate Events</h3>
-              <p className="text-zinc-400 text-sm">
-                Private sessions for leadership teams on innovation and strategy.
-              </p>
-            </div>
-            <div className="p-6 rounded-2xl bg-zinc-900/50 border border-zinc-800">
-              <div className="text-3xl mb-4">🎓</div>
-              <h3 className="text-lg font-bold mb-2">University Lectures</h3>
-              <p className="text-zinc-400 text-sm">
-                Guest lectures on entrepreneurship, AI ethics, and building the future.
-              </p>
-            </div>
-            <div className="p-6 rounded-2xl bg-zinc-900/50 border border-zinc-800">
-              <div className="text-3xl mb-4">🌐</div>
-              <h3 className="text-lg font-bold mb-2">Virtual Events</h3>
-              <p className="text-zinc-400 text-sm">
-                Remote keynotes and panels for global audiences.
-              </p>
-            </div>
-          </div>
-        </div>
+      {/* Formats */}
+      <section className="mb-12">
+        <h2 className="text-xs font-medium text-neutral-400 uppercase tracking-wider mb-4">
+          Formats
+        </h2>
+        <ul className="space-y-2 text-sm text-neutral-600">
+          <li>🎤 Keynote talks (30-60 minutes)</li>
+          <li>💬 Panel discussions</li>
+          <li>🎙️ Podcasts & interviews</li>
+          <li>🏢 Corporate events</li>
+          <li>🎓 University lectures</li>
+          <li>🌐 Virtual events</li>
+        </ul>
       </section>
 
       {/* Past Events */}
-      <section className="py-16 bg-zinc-900/30">
-        <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-3xl font-bold font-serif mb-8">Previous Appearances</h2>
-          <div className="flex flex-wrap gap-4">
-            {pastEvents.map((event) => (
-              <div
-                key={event}
-                className="px-6 py-3 bg-zinc-800 rounded-xl text-zinc-300"
-              >
-                {event}
-              </div>
-            ))}
-          </div>
-        </div>
+      <section className="mb-12">
+        <h2 className="text-xs font-medium text-neutral-400 uppercase tracking-wider mb-4">
+          Previous Appearances
+        </h2>
+        <p className="text-sm text-neutral-600">
+          Web Summit · Token2049 · AI conferences globally · University lectures · 
+          Corporate keynotes · Podcast appearances
+        </p>
       </section>
 
       {/* CTA */}
-      <section className="py-16">
-        <div className="max-w-4xl mx-auto px-6">
-          <div className="p-8 md:p-12 rounded-2xl bg-gradient-to-r from-amber-500/10 to-purple-500/10 border border-amber-500/20 text-center">
-            <h2 className="text-3xl font-bold font-serif mb-4">
-              Interested in Having Me Speak?
-            </h2>
-            <p className="text-zinc-400 text-lg mb-8 max-w-xl mx-auto">
-              I&apos;d love to hear about your event. Book a call to discuss topics, 
-              format, and availability.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="https://calendly.com/sensaydan"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-8 py-4 bg-amber-500 hover:bg-amber-400 text-zinc-900 font-semibold rounded-xl transition-all"
-              >
-                Book a Call
-              </a>
-              <Link
-                href="/contact"
-                className="px-8 py-4 border border-zinc-600 hover:border-zinc-400 text-zinc-100 font-semibold rounded-xl transition-all"
-              >
-                Send an Inquiry
-              </Link>
-            </div>
-          </div>
-        </div>
+      <section className="pt-8 border-t border-neutral-100">
+        <p className="text-sm text-neutral-500">
+          Interested in having me speak?{" "}
+          <a
+            href="https://calendly.com/sensaydan"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-neutral-900 link"
+          >
+            Book a call
+          </a>
+          {" "}or{" "}
+          <Link href="/contact" className="text-neutral-900 link">
+            send an inquiry
+          </Link>
+          .
+        </p>
       </section>
     </div>
   );

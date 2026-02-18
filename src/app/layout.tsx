@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Playfair_Display } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
@@ -9,18 +9,13 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
-const playfair = Playfair_Display({ 
-  subsets: ["latin"],
-  variable: "--font-playfair",
-});
-
 export const metadata: Metadata = {
   metadataBase: new URL('https://danthomson.ai'),
   title: {
-    default: "Dan Thomson | CEO, Author & Explorer",
-    template: "%s | Dan Thomson"
+    default: "Dan Thomson",
+    template: "%s — Dan Thomson"
   },
-  description: "Founder & CEO of Sensay, author of Digital Immortality books, angel investor, and explorer of 100+ countries. Building the future of AI and human legacy.",
+  description: "Founder & CEO of Sensay, author, angel investor, and explorer of 100+ countries. Building the future of AI and human legacy.",
   keywords: ["Dan Thomson", "Sensay", "Digital Immortality", "AI", "Web3", "Angel Investor", "Author", "Explorer"],
   authors: [{ name: "Dan Thomson" }],
   creator: "Dan Thomson",
@@ -29,21 +24,21 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://danthomson.ai",
     siteName: "Dan Thomson",
-    title: "Dan Thomson | CEO, Author & Explorer",
-    description: "Founder & CEO of Sensay, author of Digital Immortality books, angel investor, and explorer of 100+ countries.",
+    title: "Dan Thomson",
+    description: "Founder & CEO of Sensay, author, angel investor, and explorer of 100+ countries.",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Dan Thomson - CEO, Author & Explorer",
+        alt: "Dan Thomson",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dan Thomson | CEO, Author & Explorer",
-    description: "Founder & CEO of Sensay, author of Digital Immortality books, angel investor, and explorer of 100+ countries.",
+    title: "Dan Thomson",
+    description: "Founder & CEO of Sensay, author, angel investor, and explorer of 100+ countries.",
     creator: "@sensaydan",
     images: ["/og-image.png"],
   },
@@ -58,9 +53,6 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  verification: {
-    google: "YOUR_GOOGLE_SITE_VERIFICATION_CODE",
-  },
 };
 
 export default function RootLayout({
@@ -69,7 +61,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en">
       <head>
         <script
           type="application/ld+json"
@@ -79,7 +71,7 @@ export default function RootLayout({
               "@type": "Person",
               name: "Dan Thomson",
               url: "https://danthomson.ai",
-              image: "https://danthomson.ai/dan-thomson.jpg",
+              image: "https://danthomson.ai/images/dan-headshot.png",
               jobTitle: "Founder & CEO",
               worksFor: {
                 "@type": "Organization",
@@ -106,7 +98,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className={`${inter.variable} ${playfair.variable} font-sans antialiased bg-zinc-950 text-zinc-100`}>
+      <body className={`${inter.variable} font-sans antialiased bg-white text-neutral-900`}>
         <Navigation />
         <main className="min-h-screen">
           {children}
