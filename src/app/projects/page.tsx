@@ -148,7 +148,7 @@ export default function ProjectsPage() {
         <p className="text-sm text-neutral-500">
           Have a pitch?{" "}
           <a
-            href="https://calendly.com/sensaydan"
+            href="https://calendly.com/dan-thomson"
             target="_blank"
             rel="noopener noreferrer"
             className="text-neutral-900 link"

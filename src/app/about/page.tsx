@@ -139,7 +139,7 @@ export default function AboutPage() {
           </Link>
           {" "}or{" "}
           <a
-            href="https://calendly.com/sensaydan"
+            href="https://calendly.com/dan-thomson"
             target="_blank"
             rel="noopener noreferrer"
             className="text-neutral-900 link"

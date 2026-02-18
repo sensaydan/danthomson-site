@@ -46,7 +46,7 @@ export default function Home() {
 
         <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm">
           <a
-            href="https://calendly.com/sensaydan"
+            href="https://calendly.com/dan-thomson"
             target="_blank"
             rel="noopener noreferrer"
             className="text-neutral-900 link"

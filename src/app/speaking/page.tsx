@@ -49,7 +49,7 @@ export default function SpeakingPage() {
       </p>
       <p className="mb-12">
         <a
-          href="https://calendly.com/sensaydan"
+          href="https://calendly.com/dan-thomson"
           target="_blank"
           rel="noopener noreferrer"
           className="text-neutral-900 text-sm link"
@@ -104,7 +104,7 @@ export default function SpeakingPage() {
         <p className="text-sm text-neutral-500">
           Interested in having me speak?{" "}
           <a
-            href="https://calendly.com/sensaydan"
+            href="https://calendly.com/dan-thomson"
             target="_blank"
             rel="noopener noreferrer"
             className="text-neutral-900 link"

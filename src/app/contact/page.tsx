@@ -44,7 +44,7 @@ export default function ContactPage() {
                 The fastest way to connect.
               </p>
               <a
-                href="https://calendly.com/sensaydan"
+                href="https://calendly.com/dan-thomson"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-neutral-900 link"
