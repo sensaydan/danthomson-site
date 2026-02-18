@@ -14,7 +14,7 @@ const currentVentures = [
   { name: "Sensay", url: "https://sensay.io" },
   { name: "$SNSY", url: "https://snsy.ai" },
   { name: "Draftr", url: "https://draftr.co" },
-  { name: "Trima", url: null, note: "Coming Soon" },
+  { name: "Trima", url: "https://trima.co.uk" },
   { name: "Forget Me Not", url: null, note: "Coming Soon" },
   { name: "Dgaf.ai", url: "https://dgaf.ai" },
   { name: "Clonez", url: "https://clonez.io" },
