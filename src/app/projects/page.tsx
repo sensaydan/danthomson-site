@@ -28,6 +28,9 @@ const currentVentures = [
   { name: "tutorbud", url: "https://tutorbud.co.uk" },
   { name: "coachbeyond", url: "https://coachbeyond.co.uk" },
   { name: "expertchat", url: "https://expertchat.co.uk" },
+  { name: "ExpatBro", url: "https://expatbro.co" },
+  { name: "Know-It-All", url: "https://knowitallgame.co.uk" },
+  { name: "MEtracker", url: "https://metracker.live" },
 ];
 
 const pastVentures = [
@@ -85,57 +88,6 @@ export default function ProjectsPage() {
           >
             $SNSY Token
           </a>
-        </div>
-      </section>
-
-      {/* Side Projects */}
-      <section id="side-projects" className="mb-12 scroll-mt-24">
-        <h2 className="text-xs font-medium text-neutral-400 uppercase tracking-wider mb-4">
-          Side Projects
-        </h2>
-        <div className="space-y-4">
-          <div>
-            <h3 className="font-medium text-neutral-900 text-sm">ExpatBro</h3>
-            <p className="text-neutral-500 text-sm mb-2">
-              Resources for expats and digital nomads.
-            </p>
-            <a
-              href="https://expatbro.co"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-neutral-900 text-sm link"
-            >
-              expatbro.co →
-            </a>
-          </div>
-          <div>
-            <h3 className="font-medium text-neutral-900 text-sm">Know-It-All</h3>
-            <p className="text-neutral-500 text-sm mb-2">
-              The card game that tests how well you really know your friends.
-            </p>
-            <a
-              href="https://knowitallgame.co.uk"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-neutral-900 text-sm link"
-            >
-              knowitallgame.co.uk →
-            </a>
-          </div>
-          <div>
-            <h3 className="font-medium text-neutral-900 text-sm">MEtracker</h3>
-            <p className="text-neutral-500 text-sm mb-2">
-              Real-time Middle East conflict casualty tracker.
-            </p>
-            <a
-              href="https://metracker.live"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-neutral-900 text-sm link"
-            >
-              metracker.live →
-            </a>
-          </div>
         </div>
       </section>
 

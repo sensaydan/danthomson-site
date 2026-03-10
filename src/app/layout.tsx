@@ -12,34 +12,44 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL('https://danthomson.ai'),
   title: {
-    default: "Dan Thomson",
-    template: "%s - Dan Thomson"
+    default: "Dan Thomson | Entrepreneur, Author & Founder",
+    template: "%s | Dan Thomson"
   },
-  description: "Founder & CEO of Sensay, author, angel investor, and explorer of 110 countries. Building the future of AI and human legacy.",
-  keywords: ["Dan Thomson", "Sensay", "Digital Immortality", "AI", "Web3", "Angel Investor", "Author", "Explorer"],
+  description: "Founder & CEO of Sensay, building AI digital twins for human legacy. Author, angel investor, and explorer of 110+ countries.",
+  keywords: ["Dan Thomson", "Sensay", "Digital Immortality", "AI", "Web3", "Angel Investor", "Author", "Explorer", "Entrepreneur", "Founder"],
   authors: [{ name: "Dan Thomson" }],
   creator: "Dan Thomson",
+  icons: {
+    icon: [
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://danthomson.ai",
     siteName: "Dan Thomson",
-    title: "Dan Thomson",
-    description: "Founder & CEO of Sensay, author, angel investor, and explorer of 110 countries.",
+    title: "Dan Thomson | Entrepreneur, Author & Founder",
+    description: "Founder & CEO of Sensay, building AI digital twins for human legacy. Author, angel investor, and explorer of 110+ countries.",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Dan Thomson",
+        alt: "Dan Thomson - Entrepreneur, Author & Founder",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dan Thomson",
-    description: "Founder & CEO of Sensay, author, angel investor, and explorer of 110 countries.",
+    site: "@sensaydan",
     creator: "@sensaydan",
+    title: "Dan Thomson | Entrepreneur, Author & Founder",
+    description: "Founder & CEO of Sensay, building AI digital twins for human legacy. Author, angel investor, and explorer of 110+ countries.",
     images: ["/og-image.png"],
   },
   robots: {
@@ -52,6 +62,9 @@ export const metadata: Metadata = {
       "max-image-preview": "large",
       "max-snippet": -1,
     },
+  },
+  alternates: {
+    canonical: "https://danthomson.ai",
   },
 };
 
