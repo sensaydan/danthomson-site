@@ -3,10 +3,10 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Projects",
-  description: "Dan Thomson's projects: Sensay AI, books on Digital Immortality, angel investments in Web3, AI, and Hospitality startups.",
+  description: "Dan Thomson's projects: Sensay AI, ExpatBro, Know-It-All, MEtracker, books on Digital Immortality, and angel investments in Web3, AI, and Hospitality startups.",
   openGraph: {
     title: "Projects - Dan Thomson",
-    description: "Sensay AI, books on Digital Immortality, and angel investments.",
+    description: "Sensay AI, side projects, books on Digital Immortality, and angel investments.",
   },
 };
 
@@ -85,6 +85,57 @@ export default function ProjectsPage() {
           >
             $SNSY Token
           </a>
+        </div>
+      </section>
+
+      {/* Side Projects */}
+      <section id="side-projects" className="mb-12 scroll-mt-24">
+        <h2 className="text-xs font-medium text-neutral-400 uppercase tracking-wider mb-4">
+          Side Projects
+        </h2>
+        <div className="space-y-4">
+          <div>
+            <h3 className="font-medium text-neutral-900 text-sm">ExpatBro</h3>
+            <p className="text-neutral-500 text-sm mb-2">
+              Resources for expats and digital nomads.
+            </p>
+            <a
+              href="https://expatbro.co"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-neutral-900 text-sm link"
+            >
+              expatbro.co →
+            </a>
+          </div>
+          <div>
+            <h3 className="font-medium text-neutral-900 text-sm">Know-It-All</h3>
+            <p className="text-neutral-500 text-sm mb-2">
+              The card game that tests how well you really know your friends.
+            </p>
+            <a
+              href="https://knowitallgame.co.uk"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-neutral-900 text-sm link"
+            >
+              knowitallgame.co.uk →
+            </a>
+          </div>
+          <div>
+            <h3 className="font-medium text-neutral-900 text-sm">MEtracker</h3>
+            <p className="text-neutral-500 text-sm mb-2">
+              Real-time Middle East conflict casualty tracker.
+            </p>
+            <a
+              href="https://metracker.live"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-neutral-900 text-sm link"
+            >
+              metracker.live →
+            </a>
+          </div>
         </div>
       </section>
 
