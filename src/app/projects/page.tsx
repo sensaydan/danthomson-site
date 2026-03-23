@@ -139,7 +139,7 @@ export default function ProjectsPage() {
           Books
         </h2>
         <p className="text-neutral-600 text-sm leading-relaxed mb-6">
-          I&apos;ve written two books exploring what it means to live forever through 
+          I&apos;ve written three books exploring what it means to live forever through 
           technology - the philosophical implications, practical applications, and 
           the future of human legacy.
         </p>
@@ -176,9 +176,18 @@ export default function ProjectsPage() {
           </div>
           <div>
             <h3 className="font-medium text-neutral-900 text-sm">Endless - Life After Upload</h3>
-            <p className="text-neutral-500 text-sm">
-              Currently writing - exploring the future of consciousness and digital existence.
+            <p className="text-neutral-500 text-sm mb-2">
+              The final book in the trilogy. A philosophical exploration of what happens 
+              after we upload our minds - identity, meaning, and existence in a digital realm.
             </p>
+            <a
+              href="https://amzn.eu/d/0bQOK2Zn"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-neutral-900 text-sm link"
+            >
+              Buy on Amazon →
+            </a>
           </div>
         </div>
       </section>

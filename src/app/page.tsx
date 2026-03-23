@@ -97,7 +97,7 @@ export default function Home() {
           </li>
           <li className="flex gap-4">
             <span className="text-neutral-400 w-24 flex-shrink-0">Writing</span>
-            <span className="text-neutral-600">Third book: &quot;Endless - Life After Upload&quot;</span>
+            <span className="text-neutral-600">Published third book: &quot;Endless - Life After Upload&quot;</span>
           </li>
           <li className="flex gap-4">
             <span className="text-neutral-400 w-24 flex-shrink-0">Research</span>
@@ -142,7 +142,7 @@ export default function Home() {
             <div className="text-xs text-neutral-500">Countries</div>
           </div>
           <div>
-            <div className="text-lg font-semibold text-neutral-900">2</div>
+            <div className="text-lg font-semibold text-neutral-900">3</div>
             <div className="text-xs text-neutral-500">Books</div>
           </div>
           <div>
