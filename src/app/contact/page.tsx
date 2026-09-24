@@ -2,10 +2,18 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Get in touch with Dan Thomson. Book a call, send an email, or connect on social media.",
+  description:
+    "Get in touch with Dan Thomson — book a call, send an email, or connect on Twitter, LinkedIn, Instagram, Telegram, or GitHub.",
+  alternates: { canonical: "/contact" },
   openGraph: {
-    title: "Contact - Dan Thomson",
-    description: "Book a call or connect with Dan Thomson.",
+    url: "/contact",
+    title: "Contact — Dan Thomson",
+    description:
+      "Book a call, email dan@sensay.io, or reach out on your preferred social network.",
+  },
+  twitter: {
+    title: "Contact — Dan Thomson",
+    description: "Book a call, email, or DM Dan Thomson.",
   },
 };
 

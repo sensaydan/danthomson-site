@@ -1,12 +1,22 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import { books } from "@/lib/books";
 
 export const metadata: Metadata = {
   title: "Projects",
-  description: "Dan Thomson's projects: Sensay AI, ExpatBro, Know-It-All, MEtracker, books on Digital Immortality, and angel investments in Web3, AI, and Hospitality startups.",
+  description:
+    "Dan Thomson's projects: Sensay AI, ExpatBro, Know-It-All, MEtracker, three books on digital immortality, and angel investments in AI, Web3, and hospitality startups.",
+  alternates: { canonical: "/projects" },
   openGraph: {
-    title: "Projects - Dan Thomson",
-    description: "Sensay AI, side projects, books on Digital Immortality, and angel investments.",
+    url: "/projects",
+    title: "Projects — Dan Thomson",
+    description:
+      "Sensay AI, current and past ventures, the digital immortality book trilogy, and angel investments across AI, Web3, and hospitality.",
+  },
+  twitter: {
+    title: "Projects — Dan Thomson",
+    description:
+      "Sensay AI, side ventures, books on digital immortality, and angel investments.",
   },
 };
 
@@ -139,57 +149,38 @@ export default function ProjectsPage() {
           Books
         </h2>
         <p className="text-neutral-600 text-sm leading-relaxed mb-6">
-          I&apos;ve written three books exploring what it means to live forever through 
-          technology - the philosophical implications, practical applications, and 
-          the future of human legacy.
+          A three-book series exploring what it means to live forever through
+          technology — the philosophical implications, the practical applications,
+          and the future of human legacy.
         </p>
         <div className="space-y-4">
-          <div>
-            <h3 className="font-medium text-neutral-900 text-sm">Immortality in a Digital Age</h3>
-            <p className="text-neutral-500 text-sm mb-2">
-              How we can live forever as digital copies of ourselves, and the 
-              benefits and issues that may come with it.
-            </p>
-            <a
-              href="https://www.amazon.com/Immortality-Digital-Age-ourselves-benefits/dp/1700712934"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-neutral-900 text-sm link"
-            >
-              Buy on Amazon →
-            </a>
-          </div>
-          <div>
-            <h3 className="font-medium text-neutral-900 text-sm">The Digital Afterlife: Exploring Mind Uploading</h3>
-            <p className="text-neutral-500 text-sm mb-2">
-              A deep exploration into the future of human consciousness and the 
-              frontier where mind melds with technology.
-            </p>
-            <a
-              href="https://www.amazon.com/Digital-Afterlife-Exploring-Mind-Uploading/dp/B0BZ6SVZNP"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-neutral-900 text-sm link"
-            >
-              Buy on Amazon →
-            </a>
-          </div>
-          <div>
-            <h3 className="font-medium text-neutral-900 text-sm">Endless - Life After Upload</h3>
-            <p className="text-neutral-500 text-sm mb-2">
-              The final book in the trilogy. A philosophical exploration of what happens 
-              after we upload our minds - identity, meaning, and existence in a digital realm.
-            </p>
-            <a
-              href="https://amzn.eu/d/0bQOK2Zn"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-neutral-900 text-sm link"
-            >
-              Buy on Amazon →
-            </a>
-          </div>
+          {books.map((book) => (
+            <div key={book.slug}>
+              <h3 className="font-medium text-neutral-900 text-sm">
+                <Link href={`/books/${book.slug}`} className="link">
+                  {book.title}
+                </Link>
+              </h3>
+              <p className="text-neutral-500 text-sm mb-2">{book.description}</p>
+              <div className="flex flex-wrap gap-x-4 gap-y-1 text-sm">
+                <Link href={`/books/${book.slug}`} className="text-neutral-900 link">
+                  Read more →
+                </Link>
+                <a
+                  href={book.amazonUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-neutral-500 hover:text-neutral-900"
+                >
+                  Buy on Amazon
+                </a>
+              </div>
+            </div>
+          ))}
         </div>
+        <p className="text-sm mt-6">
+          <Link href="/books" className="text-neutral-900 link">All books →</Link>
+        </p>
       </section>
 
       {/* Investments */}

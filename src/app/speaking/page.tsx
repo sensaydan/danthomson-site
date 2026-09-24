@@ -3,10 +3,19 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Speaking",
-  description: "Book Dan Thomson for speaking engagements on AI, Digital Immortality, Web3, entrepreneurship, and adventure.",
+  description:
+    "Book Dan Thomson for speaking engagements on AI, digital immortality, Web3, entrepreneurship, angel investing, and the explorer's mindset.",
+  alternates: { canonical: "/speaking" },
   openGraph: {
-    title: "Speaking - Dan Thomson",
-    description: "Book Dan Thomson for keynotes and panels on AI, Digital Immortality, and the future of technology.",
+    url: "/speaking",
+    title: "Speaking — Dan Thomson",
+    description:
+      "Keynotes, panels, corporate events, and university lectures on AI, digital immortality, Web3, and the future of human legacy.",
+  },
+  twitter: {
+    title: "Speaking — Dan Thomson",
+    description:
+      "Keynotes and panels on AI, digital immortality, Web3, and the explorer's mindset.",
   },
 };
 
@@ -93,9 +102,14 @@ export default function SpeakingPage() {
         <h2 className="text-xs font-medium text-neutral-400 uppercase tracking-wider mb-4">
           Previous Appearances
         </h2>
-        <p className="text-sm text-neutral-600">
-          Web Summit · Token2049 · AI conferences globally · University lectures · 
-          Corporate keynotes · Podcast appearances
+        <p className="text-sm text-neutral-500">
+          International conferences, corporate keynotes, university lectures,
+          and podcast interviews across AI, Web3, and entrepreneurship.
+        </p>
+        <p className="text-xs text-neutral-400 mt-2">
+          A curated list of specific events is being compiled. To request references
+          for a particular audience or format, please{" "}
+          <Link href="/contact" className="text-neutral-900 link">get in touch</Link>.
         </p>
       </section>
 

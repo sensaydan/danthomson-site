@@ -4,10 +4,19 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "Dan Thomson - Founder & CEO of Sensay, author, angel investor, and explorer. Philosophy from King's College London, MBA from Cambridge.",
+  description:
+    "Dan Thomson — Founder & CEO of Sensay, author, angel investor, and explorer. Philosophy from King's College London, MBA from Cambridge. Based in Mexico City.",
+  alternates: { canonical: "/about" },
   openGraph: {
-    title: "About - Dan Thomson",
-    description: "Founder & CEO of Sensay, author, angel investor, and explorer of 110 countries.",
+    url: "/about",
+    title: "About — Dan Thomson",
+    description:
+      "Philosopher turned entrepreneur. Founder & CEO of Sensay, author of a three-book series on digital immortality, angel investor, and explorer of 110 countries.",
+  },
+  twitter: {
+    title: "About — Dan Thomson",
+    description:
+      "Philosopher turned entrepreneur. Founder & CEO of Sensay, author, angel investor, explorer of 110 countries.",
   },
 };
 

@@ -1,5 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+  openGraph: { url: "/" },
+};
 
 export default function Home() {
   return (
@@ -121,6 +127,12 @@ export default function Home() {
           </Link>
           <Link href="/projects" className="block text-neutral-600 hover:text-neutral-900">
             Projects →
+          </Link>
+          <Link href="/books" className="block text-neutral-600 hover:text-neutral-900">
+            Books →
+          </Link>
+          <Link href="/writing" className="block text-neutral-600 hover:text-neutral-900">
+            Writing →
           </Link>
           <Link href="/speaking" className="block text-neutral-600 hover:text-neutral-900">
             Speaking →
