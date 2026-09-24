@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" ry="96" fill="#171717"/>
+  <text x="256" y="256"
+        fill="#ffffff"
+        font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="260"
+        font-weight="700"
+        letter-spacing="-14"
+        text-anchor="middle"
+        dominant-baseline="central">DT</text>
+</svg>
