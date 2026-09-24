@@ -17,7 +17,7 @@ want() {
   fi
 }
 
-for path in "" /about /projects /books /books/immortality-in-a-digital-age /books/the-digital-afterlife /books/endless-life-after-upload /writing /speaking /contact; do
+for path in "" /about /projects /books /books/immortality-in-a-digital-age /books/the-digital-afterlife /books/endless-life-after-upload /writing /speaking /investing /contact; do
   check "canonical $BASE$path"
   html=$(curl -sSL "$BASE$path")
   want "self canonical" "rel=\"canonical\" href=\"$BASE${path:-}\"" "$html"
@@ -33,6 +33,7 @@ sitemap=$(curl -sSL "$BASE/sitemap.xml")
 want "sitemap loc apex" "<loc>$BASE</loc>" "$sitemap"
 want "sitemap has /books" "<loc>$BASE/books</loc>" "$sitemap"
 want "sitemap has /writing" "<loc>$BASE/writing</loc>" "$sitemap"
+want "sitemap has /investing" "<loc>$BASE/investing</loc>" "$sitemap"
 if printf '%s' "$sitemap" | grep -qi 'danthomson\.ai'; then
   echo "FAIL: sitemap still references danthomson.ai"; fail=1
 else

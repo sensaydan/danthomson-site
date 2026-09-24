@@ -11,6 +11,7 @@ export default function Footer() {
             <Link href="/books" className="hover:text-neutral-900">Books</Link>
             <Link href="/writing" className="hover:text-neutral-900">Writing</Link>
             <Link href="/speaking" className="hover:text-neutral-900">Speaking</Link>
+            <Link href="/investing" className="hover:text-neutral-900">Investing</Link>
             <Link href="/contact" className="hover:text-neutral-900">Contact</Link>
           </div>
           
